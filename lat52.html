@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 52</title>
+</head>
+<body>
+    <h1>Latihan 52 - Tipe Data JavaScript</h1>
+    <div id="hasil"></div>
+
+    <script>
+        let nama = "Aan Abdurrahman Anshory";
+        let umur = 21;
+        let aktif = true;
+        let hobi = ["Membaca", "Belajar"];
+        let mahasiswa = {
+            nama: nama,
+            umur: umur,
+            nim: "262302007"
+        };
+
+        document.getElementById("hasil").innerHTML =
+            "Nama: " + nama + " | Tipe: " + typeof nama + "<br>" +
+            "Umur: " + umur + " | Tipe: " + typeof umur + "<br>" +
+            "Aktif: " + aktif + " | Tipe: " + typeof aktif + "<br>" +
+            "Hobi: " + hobi.join(", ") + " | Tipe: Array<br>" +
+            "Mahasiswa: " + JSON.stringify(mahasiswa) +
+            " | Tipe: " + typeof mahasiswa;
+    </script>
+</body>
+</html>
