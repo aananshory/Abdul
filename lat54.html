@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 54</title>
+</head>
+<body>
+    <h1>Latihan 54 - Percabangan IF ELSE</h1>
+    <p>Nama: Aan Abdurrahman Anshory</p>
+    <p>NIM: 262302007</p>
+    <div id="hasil"></div>
+
+    <script>
+        let nilai = 85;
+        let keterangan;
+
+        if (nilai >= 75) {
+            keterangan = "Lulus";
+        } else {
+            keterangan = "Tidak lulus";
+        }
+
+        document.getElementById("hasil").innerHTML =
+            "Nilai: " + nilai + "<br>" +
+            "Keterangan: " + keterangan;
+    </script>
+</body>
+</html>
