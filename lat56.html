@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 56</title>
+</head>
+<body>
+    <h1>Latihan 56 - Fungsi JavaScript</h1>
+    <p>Nama: Aan Abdurrahman Anshory</p>
+    <p>NIM: 262302007</p>
+    <div id="hasil"></div>
+
+    <script>
+        function hitungLuasPersegi(panjang, lebar) {
+            return panjang * lebar;
+        }
+
+        let panjang = 10;
+        let lebar = 5;
+        let luas = hitungLuasPersegi(panjang, lebar);
+
+        document.getElementById("hasil").innerHTML =
+            "Panjang: " + panjang + " cm<br>" +
+            "Lebar: " + lebar + " cm<br>" +
+            "Luas persegi panjang: " + luas + " cm²";
+    </script>
+</body>
+</html>
